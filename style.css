@@ -1,0 +1,115 @@
+@font-face {
+    font-family: comic;
+    src: url(font/Super\ Comic.otf);
+  }
+  @font-face {
+    font-family: woodstamp;
+    src: url(font/Woodstamp.otf);
+  }
+.link {
+    /* color: black; */
+    text-decoration: none;
+}
+table {
+    border-top: none;
+    border: 1px solid rgb(212, 212, 212);
+    width: 100% !important;
+    text-align: center;
+}
+.list a{
+    color: #fff;
+}
+.list:hover {
+    background-color: #fff;
+}
+.list:hover a{
+    color: #000;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+#closeSearch {
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#main {
+    max-height: 90vh;
+    min-height: 70vh;
+    /* width: 90vw; */
+}
+h2
+{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #00000064;
+}
+
+.vamp {
+
+    color: rgb(32, 30, 31);
+    font-family: 'comic';
+    color: #fff;
+    font-size: 40px;
+}
+
+body
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-image: url(img/Superman.jpg);
+    background-size: cover;
+}
+th
+{
+   font-size: 20px;
+}
+h1
+{
+    font-size: 45px;
+
+}
+main img
+{
+    width:40%;
+}
+input
+{
+    width: 80vw;
+    border: 1px solid #000;
+    background: #fff;
+    border-bottom: 3px solid black;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+::placeholder
+{
+    color: rgba(0, 0, 0, 0.382);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+table{
+    background-color: #00000064;
+}
